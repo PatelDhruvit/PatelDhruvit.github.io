@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dhruvit Patel • QA Automation (Python + Selenium)</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Dhruvit Patel — QA Automation student in London (UEL). Python, Selenium, PyTest, API testing, GitHub Actions CI. Seeking a 76-hour internship.">
+</head>
+<body>
+  <header class="container">
+    <h1>Dhruvit Patel</h1>
+    <p class="tagline">QA Automation • Python • Selenium • PyTest • API Testing</p>
+    <p class="links">
+      <a href="mailto:dhruking98@gmail.com">dhruking98@gmail.com</a> ·
+      <a href="https://github.com/PatelDhruvit" target="_blank">GitHub</a> ·
+      <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    </p>
+    <p class="availability">Seeking a 76-hour QA Automation internship (part-time, London/remote).</p>
+  </header>
 
+  <main class="container">
+    <section>
+      <h2>About</h2>
+      <p>
+        I’m a 2nd-year BSc (Hons) Computer Engineering student at the University of East London focused on
+        QA Automation. I build maintainable test suites using Python, Selenium, and PyTest with Page Object
+        Model, data-driven tests, and CI on GitHub Actions. I also have experience with WordPress and basic
+        web development.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Python, Selenium, PyTest, requests</li>
+        <li>Page Object Model (POM), explicit waits, data-driven tests</li>
+        <li>API testing, JSON schema/status assertions</li>
+        <li>Git/GitHub, GitHub Actions CI, pytest-html reports</li>
+        <li>HTML/CSS/JS basics, Django (intro), MySQL, Linux/CLI</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <article class="project">
+        <h3>E‑commerce UI Test Suite (Selenium + PyTest + POM)</h3>
+        <p>
+          Maintainable test framework with fixtures, POM, explicit waits, and data-driven tests covering
+          login, search, add‑to‑cart, and checkout happy path.
+        </p>
+        <ul>
+          <li>HTML report via pytest-html; CI with GitHub Actions</li>
+          <li>Tech: Python, Selenium, PyTest, webdriver-manager</li>
+        </ul>
+        <p>
+          Repo: <a href="https://github.com/PatelDhruvit/qa-ecommerce-selenium" target="_blank">github.com/PatelDhruvit/qa-ecommerce-selenium</a>
+          <br />
+          CI badge (optional): <img alt="CI" src="https://github.com/PatelDhruvit/qa-ecommerce-selenium/actions/workflows/tests.yml/badge.svg" onerror="this.style.display='none'">
+        </p>
+      </article>
+
+      <article class="project">
+        <h3>Public REST API Tests (requests + PyTest)</h3>
+        <p>
+          CRUD tests against a public API with status and JSON schema assertions. Parametrized tests
+          from CSV/JSON and simple environment configuration.
+        </p>
+        <ul>
+          <li>Tech: Python, requests, PyTest</li>
+        </ul>
+        <p>
+          Repo: <a href="https://github.com/PatelDhruvit/api-tests-pytest" target="_blank">github.com/PatelDhruvit/api-tests-pytest</a>
+          <br />
+          CI badge (optional): <img alt="CI" src="https://github.com/PatelDhruvit/api-tests-pytest/actions/workflows/tests.yml/badge.svg" onerror="this.style.display='none'">
+        </p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:dhruking98@gmail.com">dhruking98@gmail.com</a></p>
+      <p>Location: London, UK</p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>© <span id="year"></span> Dhruvit Patel</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
